@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: WDR7500V3.0
+name: WDR7500v3.0
 
 on:
   repository_dispatch:
