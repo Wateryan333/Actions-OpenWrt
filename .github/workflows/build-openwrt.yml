@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: WDR7500v3.0
+name: WDR7500V3.0
 
 on:
   repository_dispatch:
@@ -25,7 +25,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Wateryan333/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
